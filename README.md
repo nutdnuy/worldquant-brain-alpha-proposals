@@ -14,6 +14,7 @@ The consolidated folder is the Obsidian-facing clean proposal view. It keeps 12 
 
 - `alpha-proposals/portfolio-review-batch-2026-06-27-consolidated/` - canonical deduplicated alpha proposal library.
 - `alpha-proposals/Capital Productivity Momentum.md` - hand-polished reference proposal.
+- `alpha-proposals/Goodwill Burden Delta.md` - hand-polished submitted goodwill-burden proposal for `Wjpb7KAj`.
 
 ## Notes
 
