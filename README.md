@@ -15,6 +15,8 @@ This repository now keeps only hand-polished, reader-facing proposal notes. The 
 - `alpha-proposals/00 - Alpha Proposal Index.md` - canonical proposal entry point.
 - `alpha-proposals/submitted/Capital Productivity Momentum.md` - hand-polished reference proposal.
 - `alpha-proposals/submitted/Goodwill Burden Delta.md` - hand-polished submitted goodwill-burden proposal for `Wjpb7KAj`.
+- `alpha-proposals/candidates/` - hand-polished hard-pass or submitted candidate proposal families.
+- `alpha-proposals/watchlist/` - near-pass candidates and deferred multi-sleeve composites.
 
 ## Notes
 
