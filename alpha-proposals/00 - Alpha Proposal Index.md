@@ -10,7 +10,7 @@ updated: 2026-06-27
 # Alpha Proposal Index
 
 > [!summary] Canonical use
-> Use this page as the entry point for alpha proposal notes. The active proposal library is organized into `submitted/`, `candidates/`, and `watchlist/`. Generated review batches are excluded from this library unless explicitly regenerated for audit work.
+> Use this page as the entry point for alpha proposal notes. The active proposal library is organized into `submitted/`, `candidates/`, `alpha-mix/`, and `watchlist/`. Generated review batches are excluded from this library unless explicitly regenerated for audit work.
 
 ## Active Submitted Proposals
 
@@ -38,6 +38,22 @@ updated: 2026-06-27
 | [Forecast Error Underreaction](candidates/Forecast%20Error%20Underreaction.md) | `78wQj2lZ`, `wpR1jYJ5` | Analyst forecast error smoothing | Submitted-active, OS pending |
 | [Price Volume Reversal Pressure](candidates/Price%20Volume%20Reversal%20Pressure.md) | `MPxl3Rp6`, `rKL2M2Xj`, `om98KvNl` | Return-volume reversal pressure | Hard pass, high-turnover review required |
 | [Adjusted Net Income Drift](candidates/Adjusted%20Net%20Income%20Drift.md) | `rKra0V2j` | Short-decayed adjusted net income | Hard pass, correlation review required |
+
+## Alpha Mix Proposals
+
+> [!note] Separate construction layer
+> Alpha mix notes are composite portfolio-construction hypotheses. They live in `alpha-mix/` so they are not confused with single-mechanism alpha candidates.
+
+| Proposal | Representative Alpha IDs | Mix Construction | Status |
+| --- | --- | --- | --- |
+| [Alpha Mix Proposal Index](alpha-mix/00%20-%20Alpha%20Mix%20Proposal%20Index.md) | n/a | Entry point for composite alpha-mix notes | Active index |
+| [Guarded Inverse Volatility Tri-Family Mix](alpha-mix/Guarded%20Inverse%20Volatility%20Tri-Family%20Mix.md) | `9qRAp3g9`, `zqWJrvM1` | Three distinct families weighted by inverse realized sleeve volatility | Hard pass, self-correlation pending |
+| [Equal Weight Low Correlation Parent Mix](alpha-mix/Equal%20Weight%20Low%20Correlation%20Parent%20Mix.md) | `JjdanMlO`, `XgKZ2OZ0`, `e7rMnb6O` | Equal-weight normalized blend of low-correlation parent alphas | Hard pass, self-correlation pending |
+| [Direction Weighted Options Skew Conviction](alpha-mix/Direction%20Weighted%20Options%20Skew%20Conviction.md) | `xAnkAEGw` | Options-skew direction with price-volume conviction boost | Hard pass, self-correlation pending |
+| [Direction Weighted Tax Credit Conviction](alpha-mix/Direction%20Weighted%20Tax%20Credit%20Conviction.md) | `MPxp60Za`, `3qARw6wN` | Tax-working-spread direction with credit or risk conviction weight | Hard pass, self-correlation pending |
+| [Sharpe Weighted Credit News Liquidity Mix](alpha-mix/Sharpe%20Weighted%20Credit%20News%20Liquidity%20Mix.md) | `e7rdMLNp`, `6XEwNkdE` | Three-sleeve rolling Sharpe-proxy weight mix | Hard pass, self-correlation pending |
+| [Core Satellite Positive Region Blend](alpha-mix/Core%20Satellite%20Positive%20Region%20Blend.md) | `O0p0WdPd`, `JjpMkM8m` | Workbook-only core-satellite weighted blend | Hard pass metrics, high-correlation review required |
+| [Dynamic Tax GARP Allocation Frontier](alpha-mix/Dynamic%20Tax%20GARP%20Allocation%20Frontier.md) | `thememix_009` to `thememix_020` | Dynamic tax/GARP allocation frontier | Deferred frontier |
 
 ## Restored Consolidated Review Units
 
@@ -72,6 +88,7 @@ updated: 2026-06-27
 - Keep only hand-polished, reader-facing proposal notes in this folder.
 - Put active submitted proposals under `submitted/`.
 - Put hard-pass or research candidates under `candidates/`.
+- Put composite alpha-mix proposals under `alpha-mix/`.
 - Put near-pass or deferred composite ideas under `watchlist/`.
 - Do not restore generated batch folders here unless the user explicitly asks for a review batch.
 - If a generated batch is needed again, regenerate from the source workbook or source artifacts rather than treating old batch notes as canonical.
