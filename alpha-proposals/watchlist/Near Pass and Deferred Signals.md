@@ -35,6 +35,8 @@ tags:
 | `qMAdpkRA` | Very strong submitted metrics, but uses many sleeves: valuation, earnings yield, volume/news, forecast error, confidence, and curve. Defer until decomposed. |
 | `gJ1PQNpg` | Strong submitted metrics, but mixes tax working spread, GARP, forecast confidence, and dynamic weighting. Defer as composite. |
 | `leVQkljN` | Strong submitted metrics, but uses options skew, tax working spread, turnover, and dynamic weighting. Defer as composite. |
+| `LLX0jane` | Clean operating-income-over-price style alpha, but very close to existing capital-productivity/profitability proposals and highly correlated inside the workbook. |
+| `9qaoem5e` | Capex flag minus current-liability balance has attractive metrics in the workbook but was marked `Pass=False`; keep for manual status review before proposal promotion. |
 
 ## Operating Rule
 

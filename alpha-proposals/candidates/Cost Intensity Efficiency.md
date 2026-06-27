@@ -6,6 +6,9 @@ alpha_name: Cost Intensity Efficiency
 alpha_ids:
   - 0m79mj6q
   - wpzQPApx
+  - WjWjvxwP
+  - omzEZpd2
+  - mLzokak9
 status: submitted-active-os-pending
 created: 2026-06-27
 updated: 2026-06-27
@@ -26,7 +29,7 @@ tags:
 
 | Dimension | Description |
 | --- | --- |
-| Alpha IDs | `0m79mj6q`, `wpzQPApx` |
+| Alpha IDs | `0m79mj6q`, `wpzQPApx`, `WjWjvxwP`, `omzEZpd2`, `mLzokak9` |
 | Core variable | `cogs / cap` |
 | Supporting field | `fnd6_fopo / cap` in the refined variant |
 | Trading style | Sparse accounting-quality signal |
@@ -65,7 +68,10 @@ The sparse gate is important because accounting ratios are noisy. The proposal i
 | Alpha | Variant | Sharpe | Fitness | Turnover | Returns | Drawdown |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | `0m79mj6q` | Cost minus profit adjustment | `2.01` | `2.44` | `3.17%` | `18.39%` | `9.42%` |
+| `WjWjvxwP` | Higher event-sleeve cost tail | `2.03` | `2.89` | `2.99%` | `25.30%` | `13.45%` |
 | `wpzQPApx` | Raw cost-intensity tail | `2.00` | `2.85` | `2.92%` | `25.45%` | `13.35%` |
+| `omzEZpd2` | Smoothed cost-intensity tail | `2.00` | `2.85` | `3.30%` | `25.32%` | `13.42%` |
+| `mLzokak9` | Raw `zscore(cogs/cap)` | `1.37` | `1.85` | `2.65%` | `22.75%` | `25.66%` |
 
 ## Validation Plan
 
@@ -85,4 +91,5 @@ Keep as a strong submitted fundamental proposal family. It is economically reada
 ## Sources
 
 - Submitted alpha export: `/Users/nuthdanai/Desktop/02_Quant_Investment/WorldQuant_Brain_AI_Alpha_Collection_2026-06-23/01_active_workspaces/Alpha_LLM_Research/generated/brain_alpha_exports/submitted_alpha_details.csv`
+- Source workbook: `/Users/nuthdanai/Desktop/alpha-mixing-research/alpha_mixing_research_combined.xlsm`, sheet `04_alpha_pass_combined`
 - Project memory: `/Users/nuthdanai/Documents/Obsidian Vault/01 Projects/Quant/worldquant-brain/_PROJECT.md`
