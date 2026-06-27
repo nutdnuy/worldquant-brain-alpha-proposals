@@ -39,6 +39,28 @@ updated: 2026-06-27
 | [Price Volume Reversal Pressure](candidates/Price%20Volume%20Reversal%20Pressure.md) | `MPxl3Rp6`, `rKL2M2Xj`, `om98KvNl` | Return-volume reversal pressure | Hard pass, high-turnover review required |
 | [Adjusted Net Income Drift](candidates/Adjusted%20Net%20Income%20Drift.md) | `rKra0V2j` | Short-decayed adjusted net income | Hard pass, correlation review required |
 
+## Restored Consolidated Review Units
+
+> [!note] Flattened restore
+> These notes were restored from the prior consolidated portfolio review batch, but the generated batch folder itself was not restored. They now live directly inside `candidates/` so the active proposal library has one navigable structure.
+
+| Restored note | Scope |
+| --- | --- |
+| [Consolidated Alpha Cluster Index](candidates/00%20-%20Consolidated%20Alpha%20Cluster%20Index.md) | Deduplicated review index: 12 clean multi-member clusters, 30 singleton rows, 397 mixed-composite rows filtered out |
+| [C001 - Capital Productivity Momentum - Capital Cost Base](candidates/001%20-%20C001-Capital-Productivity-Momentum-Capital-Cost-Base.md) | 27-member tax/accounting capital-cost-base cluster |
+| [C002 - Fundamental Score Momentum - Multi-Factor Score Delta](candidates/002%20-%20C002-Fundamental-Score-Momentum-Multi-Factor-Score-Delta.md) | 14-member multi-factor score-delta cluster |
+| [C003 - Options Skew Risk Appetite - Put-Call OI + 270D IV Skew](candidates/003%20-%20C003-Options-Skew-Risk-Appetite-Put-Call-OI-270D-IV-Skew.md) | 12-member options-skew cluster |
+| [C004 - Price Volume Reversal - Price Liquidity](candidates/004%20-%20C004-Price-Volume-Reversal-Price-Liquidity.md) | 8-member price-liquidity reversal cluster |
+| [C005 - Options Skew Risk Appetite - Put-Call OI + 60D IV Skew](candidates/005%20-%20C005-Options-Skew-Risk-Appetite-Put-Call-OI-60D-IV-Skew.md) | 8-member options-skew cluster |
+| [C006 - Options Skew Risk Appetite - 30D IV Skew](candidates/006%20-%20C006-Options-Skew-Risk-Appetite-30D-IV-Skew.md) | 4-member options IV skew cluster |
+| [C007 - EPS Revision Shock - EPS Estimate](candidates/007%20-%20C007-EPS-Revision-Shock-EPS-Estimate.md) | 4-member EPS estimate revision cluster |
+| [C008 - Cross Sectional Signal Momentum - Tax Working Spread](candidates/008%20-%20C008-Cross-Sectional-Signal-Momentum-Tax-Working-Spread.md) | 3-member tax-working-spread duplicate cluster |
+| [C009 - Capital Productivity Momentum - Capital Cost Base + Operating Profit](candidates/009%20-%20C009-Capital-Productivity-Momentum-Capital-Cost-Base-Operating-Profit.md) | 3-member capital productivity plus operating-profit cluster |
+| [C010 - Tax Cash Flow Capital Momentum - Tax Book Cash Flow + Capital Cost Base](candidates/010%20-%20C010-Tax-Cash-Flow-Capital-Momentum-Tax-Book-Cash-Flow-Capital-Cost-Base.md) | 3-member tax-cash-flow capital cluster |
+| [C011 - Options Skew Risk Appetite - Put-Call OI + 60D IV Skew + Capital Cost Base](candidates/011%20-%20C011-Options-Skew-Risk-Appetite-Put-Call-OI-60D-IV-Skew-Capital-Cost-Base.md) | 2-member options-skew plus capital-cost-base cluster |
+| [C012 - Cross Sectional Signal Momentum - F-Score Growth](candidates/012%20-%20C012-Cross-Sectional-Signal-Momentum-F-Score-Growth.md) | 2-member F-score growth cluster |
+| [Alpha Proposal Singletons](candidates/99%20-%20Alpha%20Proposal%20Singletons.md) | 30 clean singleton proposal rows kept separate from merged clusters |
+
 ## Watchlist
 
 | Note | Scope |
