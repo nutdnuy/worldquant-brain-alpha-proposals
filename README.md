@@ -6,15 +6,15 @@ Private research notes for the WorldQuant Brain alpha proposal library.
 
 Use this file first:
 
-- `alpha-proposals/portfolio-review-batch-2026-06-27-consolidated/00 - Consolidated Alpha Cluster Index.md`
+- `alpha-proposals/00 - Alpha Proposal Index.md`
 
-The consolidated folder is the Obsidian-facing clean proposal view. It keeps 12 multi-member clusters plus 30 singleton candidates after filtering out 397 multi-field composite rows that appear to come from alpha mixing. Cluster titles use a base mechanism plus distinctive field labels to avoid repeated-looking names.
+This repository now keeps only hand-polished, reader-facing proposal notes. The generated `portfolio-review-batch-2026-06-27-consolidated/` folder was removed to avoid confusing active submitted proposals with batch review artifacts.
 
 ## Included
 
-- `alpha-proposals/portfolio-review-batch-2026-06-27-consolidated/` - canonical deduplicated alpha proposal library.
-- `alpha-proposals/Capital Productivity Momentum.md` - hand-polished reference proposal.
-- `alpha-proposals/Goodwill Burden Delta.md` - hand-polished submitted goodwill-burden proposal for `Wjpb7KAj`.
+- `alpha-proposals/00 - Alpha Proposal Index.md` - canonical proposal entry point.
+- `alpha-proposals/submitted/Capital Productivity Momentum.md` - hand-polished reference proposal.
+- `alpha-proposals/submitted/Goodwill Burden Delta.md` - hand-polished submitted goodwill-burden proposal for `Wjpb7KAj`.
 
 ## Notes
 
