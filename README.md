@@ -8,7 +8,7 @@ Use this file first:
 
 - `alpha-proposals/portfolio-review-batch-2026-06-27-consolidated/00 - Consolidated Alpha Cluster Index.md`
 
-The consolidated folder is the Obsidian-facing research view. It combines 517 source proposal records into 95 multi-member clusters plus 80 singleton candidates, so highly similar alpha variants are reviewed as one research family.
+The consolidated folder is the Obsidian-facing research view. It combines 517 source proposal records into 84 multi-member clusters plus 80 singleton candidates, so highly similar alpha variants are reviewed as one research family. Cluster titles use a base mechanism plus distinctive field labels to avoid repeated-looking names.
 
 ## Included
 
