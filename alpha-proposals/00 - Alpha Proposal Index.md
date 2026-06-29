@@ -4,7 +4,7 @@ type: alpha-proposal-index
 project: worldquant-brain
 status: active
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-06-29
 ---
 
 # Alpha Proposal Index
@@ -38,6 +38,7 @@ updated: 2026-06-27
 | [Forecast Error Underreaction](candidates/Forecast%20Error%20Underreaction.md) | `78wQj2lZ`, `wpR1jYJ5` | Analyst forecast error smoothing | Submitted-active, OS pending |
 | [Price Volume Reversal Pressure](candidates/Price%20Volume%20Reversal%20Pressure.md) | `MPxl3Rp6`, `rKL2M2Xj`, `om98KvNl` | Return-volume reversal pressure | Hard pass, high-turnover review required |
 | [Adjusted Net Income Drift](candidates/Adjusted%20Net%20Income%20Drift.md) | `rKra0V2j` | Short-decayed adjusted net income | Hard pass, correlation review required |
+| [Glazar IQC Source Playbook](candidates/Glazar%20IQC%20Source%20Playbook.md) | n/a | External IQC source pack for price-volume, news/social, and fundamental-value candidates | External source intake, simulation queue required |
 
 ## Alpha Mix Proposals
 
